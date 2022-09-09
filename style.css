@@ -1,0 +1,136 @@
+
+.main{
+ background-color:hsl(193,100%,96%);
+    
+}
+.btn-nav{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px 1px rgba(126, 124, 124, 0.4);
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+.container{
+    padding-top: 20px;
+}
+.btn-1{
+    padding:10px 35px ;
+    background-color: rgb(253, 37, 163);
+    color: white;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-family: sans-serif;
+    border-radius: 50px;
+}
+.btn-1:hover{
+    background-color: hsl(322,100%,66%);
+    color: white;
+}
+.css-cont{
+    box-shadow: 0px 0px 5px 3px rgba(126, 124, 124, 0.4);
+    border-radius: 15px;
+}
+.card{
+    position: relative;
+    top: 45px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(126, 124, 124, 0.4);
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 600;
+}
+
+.btn-card{
+    width: 200px;
+    border-radius: 50px;
+    box-shadow: 0 0 3px;
+    font-weight: 700;
+    font-family: sans-serif;
+    padding: 10px 0;
+    background-color:rgb(243, 7, 137) ;
+    color: white;
+    
+}
+.btn-card:hover{
+    background-color: hsl(322,100%,66%);
+    color: white;
+}
+
+.footer{
+    background-color: hsl(192,100%,9%);
+    color: white;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 3px;
+}
+
+.foot-1{
+    display: flex;
+    column-gap: 15px;
+    margin-bottom: 8px
+}
+
+.foot-1 p{
+    font-size: 16px;
+}
+.details{
+    margin-top: 40px;
+}
+.li{
+    display: inline;
+    margin-right: 10px;
+    
+  align-items: center;
+}
+p{
+    color: rgb(116, 113, 113);
+    font-size: 18px;
+}
+
+ .icon{
+    color: white;
+    font-size: 15px;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 10px;
+  border-radius: 50%;
+} 
+
+
+
+/* Media query */
+
+@media(max-width:750px){
+    .logo{
+        width: 110px;
+    }
+    body{
+        background-image: url('/images/bg-hero-mobile.svg');
+    }
+    .btn{
+        font-size: 10px;
+    }
+
+
+}
+
+@media(min-width:751px){
+    .logo{
+       width: 175px;
+       height: 30px;
+    } 
+    body{
+        background-image: url('/images/bg-hero-desktop.svg');
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .card{
+        width:50%;
+    }
+}
